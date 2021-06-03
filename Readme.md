@@ -1,0 +1,1 @@
+Modelo de uma plataforma de stream versão pc
