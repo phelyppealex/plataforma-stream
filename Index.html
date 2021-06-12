@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
 
+        <script src="js/nav.js"></script>
         <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
 
-        <nav onclick="navbar('navbar')" id="navbar">
+        <nav id="navbar" onmouseover="navbarHover()" onmouseout="fecharNavbar()">
             <label>PHELYPPE <br> <h1>Troque de perfil</h1></label>
             
             <ul>
@@ -42,6 +43,7 @@
 
         <div id="principal">
             <div id="header">
+                <div id="mascara"></div>
                 <img src="imagens/bg_ginny.jpg" id="imgHeader">
             </div>
         </div>
