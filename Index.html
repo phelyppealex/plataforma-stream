@@ -6,19 +6,25 @@
         <title></title>
 
         <script src="js/nav.js"></script>
-        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/body.css">
     </head>
     <body>
 
+        <!--Abaixo o corpo do navbar-->
         <nav id="navbar" onmouseover="navbarHover()" onmouseout="fecharNavbar()">
+
+            <!--Menu de troca de perfil-->
             <label>PHELYPPE <br> <h1>Troque de perfil</h1></label>
-            
+
+            <!--Lista de opções do menu do navbar com class="selected" para a opção
+            selecionada no momento-->
             <ul>
                 <li>
                     <img src="imagens/lupaIcon.png" width="22" height="22"><h1 class="leg">Buscar</h1>
                 </li>
                 <li>
-                    <img src="imagens/homeIcon.png" width="22" height="22" class="select"><h1 class="leg">Início</h1>
+                    <img src="imagens/homeIcon.png" width="22" height="22" class="selected"><h1 class="leg">Início</h1>
                 </li>
                 <li>
                     <img src="imagens/randomIcon.png" width="22" height="22"><h1 class="leg">Títulos aleatórios</h1>
@@ -37,18 +43,33 @@
                 </li>
             </ul>
 
+            <!--Opção de sair e ajuda-->
             <label style="margin-top: 90px;"><h1>Ajuda</h1>  <br>  <h1>Sair da Pheflix</h1></label>
+
+            <!--Logo da Pheflix dentro do navbar-->
             <img src="imagens/logo.png" alt="Logo" width="60" height="65" id="logo" style="margin-top: 140px;">
         </nav>
 
+        <!--div principal, onde se localiza o conteúdo da página-->
         <div id="principal">
-            <div id="header">
+
+            <!--Banner de algum filme/série-->
+            <div id="banner">
+                <!--Esta div sobrepõe a banner para uma sombra que dá uma efeito de transição
+                para o resto do conteúdo-->
                 <div id="mascara"></div>
-                <img src="imagens/bg_ginny.jpg" id="imgHeader">
+
+                <img src="imagens/bg_ginny.jpg" id="imgBanner">
             </div>
+            
+            <div id="conteudo">
+                <h1>GINNY E GEORGIA</h1>
+            </div>
+            
         </div>
 
-        <img id="netflix" src="imagens/pheflixIcon.png" alt="Netflix" width="210" height="65">
+        <!--Logo do site que fica fixa no canto inferior direito-->
+        <img id="pheflix" src="imagens/pheflixIcon.png" alt="Netflix" width="210" height="65">
 
     </body>
 </html>
