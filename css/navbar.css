@@ -8,7 +8,7 @@ nav {
     height: 100%;
     text-align: center;
     transition: 1s;
-    background-image: linear-gradient(to right, black, black);
+    background-color: black;
 }
 nav label {
     font-size: 20px;
