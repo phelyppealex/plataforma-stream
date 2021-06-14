@@ -18,6 +18,7 @@ body {
 #principal{
     margin: auto auto auto 80px;
     margin-left: 79px;
+    transition: .65s;
 }
 /*Banner de um produto*/
 #banner{
@@ -69,4 +70,5 @@ complementar*/
 }
 #conteudo ul li img:hover{
     border: 3px solid red;
+    transition: .4s;
 }
