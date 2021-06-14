@@ -52,6 +52,9 @@ nav ul li h1{
 .selected {
     border-bottom: 4px solid red;
 }
+#logo{
+    margin-top: 80px;
+}
 
 
 /*-----------------------Lista de eventos do navbar----------------*/
@@ -65,7 +68,7 @@ nav:hover {
 nav:hover h1{
     display: block;
 }
-nav:hover img{
+nav:hover ul li img{
     margin-left: 29px;
 }
 nav:hover label{
