@@ -7,6 +7,8 @@
 
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/body.css">
+
+        <script src="js/code.js"></script>
     </head>
     <body>
 
@@ -63,19 +65,25 @@
             
             
             <div id="conteudo">
-                <h1>GINNY E GEORGIA</h1>
+                <h1 id="titulo">GINNY E GEORGIA</h1>
 
                 <!--Lista de assistidos-->
                 <h2>Assistindo:</h2>
 
                 <ul>
-                    <li><img src="imagens/ginny_and_georgia.jpg"></li>
-                    <li><img src="imagens/riverdale.jpg"></li>
-                    <li><img src="imagens/naruto.jpeg"></li>
+                    <li onclick="getBanner('ginny');">
+                        <img id="ginny" src="imagens/ginny_and_georgia.jpg">
+                    </li>
+                    <li onclick="getBanner('riverdale');">
+                        <img id="riverdale" src="imagens/riverdale.jpg">
+                    </li>
+                    <li onclick="getBanner('naruto');">
+                        <img id="naruto" src="imagens/naruto.jpeg">
+                    </li>
                 </ul>
             </div>
             
-        </div>
+        </div> <img src="imagens/bg" alt="">
 
         <!--Logo do site que fica fixa no canto inferior direito-->
         <img id="pheflix" src="imagens/pheflixIcon.png" alt="Netflix" width="210" height="65">
