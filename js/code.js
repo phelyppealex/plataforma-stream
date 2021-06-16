@@ -5,7 +5,7 @@ function getBanner(id){
     }
     if(id == 'ginny'){
         document.getElementById('imgBanner').src = 'imagens/bg_ginny.jpg';
-        document.getElementById('titulo').textContent = 'GINNY E GEORGIA'
+        document.getElementById('titulo').textContent = 'Ginny e Georgia'
     }
     if(id == 'riverdale'){
         document.getElementById('imgBanner').src = 'imagens/bg_riverdale.jpg';
