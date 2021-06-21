@@ -80,6 +80,10 @@ nav ul li:hover h1{
 nav:hover #logo{
     display: none;
 }
+nav ul li:hover h1{
+    font-size: 18px;
+    transition: .08s;
+}
 /*Usando o seletor de elementos irmãos, recuei o conteúdo da página
 junto com o navbar*/
 nav:hover ~ #principal{
