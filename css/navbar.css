@@ -28,6 +28,9 @@ nav ul {
     margin-top: 90px;
     text-decoration: none;
 }
+nav ul li{
+    cursor: pointer;
+}
 /*O line-height é utilizado para centralizar verticalmente
 font-weight com valor bold para deixar negrito*/
 nav ul li h1{
