@@ -47,6 +47,7 @@ nav ul li h1{
 /*Espaçamento entre as imagens do menu de opções*/
 nav ul li img{
     margin-top: 20px;
+    transition: .25s;
 }
 nav ul li h1{
     display: none;
@@ -79,6 +80,10 @@ nav:hover label{
 }
 nav ul li:hover h1{
     color: white;
+}
+nav ul li:hover img{
+    margin-left: 40px;
+    transition: .25s;
 }
 nav:hover #logo{
     display: none;
