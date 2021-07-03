@@ -6,6 +6,10 @@
     font-family: sans-serif;
     color: black;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-margin-top: 8em;
+}
 body {
     background-color: black;
 }
