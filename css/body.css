@@ -85,6 +85,12 @@ complementar*/
 }
 
 @media only screen and (max-width: 1050px) {
+    #banner{
+        height: 50vh;
+    }
+    #imgBanner{
+        height: inherit;
+    }
     #principal{
         margin-left: 0;
         margin-bottom: 10vh;
